@@ -1,5 +1,5 @@
 {% set name = "Pyttoresque" %}
-{% set version = "0.4.2" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/Pyttoresque-{{ version }}.tar.gz
-  sha256: 8c82b8558ce3a0e757db3f12f27149c346320b17ba0f22e304ae9a5b2ee7eac9
+  sha256: ece145f673b09c9e032a0134a609a4fae7ac846ae1ca88dbc4f0d62c9ae4327e
 
 build:
   entry_points:
@@ -45,7 +45,7 @@ test:
 about:
   home: https://github.com/NyanCAD/pyttoresque
   summary: Library for working with NyanCAD tools
-  license: MIT
+  license: MPL-2.0
   license_file: LICENSE
 
 extra:
