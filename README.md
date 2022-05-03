@@ -3,7 +3,7 @@ About pyttoresque
 
 Home: https://github.com/NyanCAD/pyttoresque
 
-Package license: MIT
+Package license: MPL-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyttoresque-feedstock/blob/main/LICENSE.txt)
 
