@@ -1,5 +1,5 @@
 {% set name = "Pyttoresque" %}
-{% set version = "0.5.4" %}
+{% set version = "0.5.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,18 +7,17 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/Pyttoresque-{{ version }}.tar.gz
-  sha256: 08df08db632ac55e6dc0fc4ed56ddc7e547924b9b8d536223c12ca1be6edfb7c
+  sha256: 49788b40e72077c37856a508d62ada7672f028d20da3ca7070bed8bfcbadf6dd
 
 build:
   entry_points:
     - jupyter-mosaic = pyttoresque.app:main
-  noarch: python
   number: 0
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python
     - setuptools-scm
   run:
     - aiohttp
@@ -30,7 +29,7 @@ requirements:
     - panel
     - plotly
     - pycapnp
-    - python >=3.6
+    - python
 
 test:
   imports:
