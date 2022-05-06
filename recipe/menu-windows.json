@@ -1,0 +1,12 @@
+{
+    "menu_name": "Anaconda${PY_VER} ${PLATFORM}",
+    "menu_items":
+    [
+    {
+        "name": "Mosaic",
+        "pywscript": "${PYTHON_SCRIPTS}/jupyter-mosaic-script.py",
+        "workdir": "${PERSONALDIR}",
+        "icon": "${MENU_DIR}/Logo.ico"
+    }
+    ]
+}
