@@ -1,5 +1,5 @@
 {% set name = "Pyttoresque" %}
-{% set version = "0.5.3" %}
+{% set version = "0.5.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/Pyttoresque-{{ version }}.tar.gz
-  sha256: b25b4e03a733f504990d0b2135f448c25109369d56c20dcdcb2ea84fb3267f56
+  sha256: 08df08db632ac55e6dc0fc4ed56ddc7e547924b9b8d536223c12ca1be6edfb7c
 
 build:
   entry_points:
