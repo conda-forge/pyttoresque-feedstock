@@ -17,7 +17,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python
     - setuptools-scm
   run:
     - aiohttp
@@ -29,7 +29,7 @@ requirements:
     - panel
     - plotly
     - pycapnp
-    - python >=3.6
+    - python
 
 test:
   imports:
