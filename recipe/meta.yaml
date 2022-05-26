@@ -1,5 +1,5 @@
 {% set name = "Pyttoresque" %}
-{% set version = "0.5.6" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/Pyttoresque-{{ version }}.tar.gz
-  sha256: 3f07f39573480c5e3722b4b72728bd79a5f195372f05ba3930e4d8dab69c8f0d
+  sha256: ac8007e77e7527bec557a2b6ccf273fbddacdfce0052c70a8d67d5ed1878e604
 
 build:
   entry_points:
     - jupyter-mosaic = pyttoresque.app:main
-  number: 1
+  number: 0
 
 requirements:
   host:
